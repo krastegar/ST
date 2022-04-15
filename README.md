@@ -1,4 +1,3 @@
-# ST
 # SourceTracker2
 [![Build Status](https://travis-ci.org/biota/sourcetracker2.svg?branch=master)](https://travis-ci.org/biota/sourcetracker2) [![Coverage Status](https://coveralls.io/repos/github/biota/sourcetracker2/badge.svg)](https://coveralls.io/github/biota/sourcetracker2)
 
