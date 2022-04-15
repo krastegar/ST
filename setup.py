@@ -105,9 +105,10 @@ setup(
           'seaborn'],
     classifiers=classifiers,
     package_data={'sourcetracker/_q2': ['citations.bib']},
-    entry_points={'qiime2.plugins': q2cmds,
-                  'console_scripts': standalone,
-                 'sourcetracker2':sourcetracker._cli:cli},
+    entry_points='''
+        [console_scripts]
+        sourcetracker2=sourcetracker._cli:cli
+        ''')
     cmdclass={'install': CustomInstallCommand,
               'develop': CustomDevelopCommand,
               'egg_info': CustomEggInfoCommand},
