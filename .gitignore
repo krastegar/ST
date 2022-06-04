@@ -70,3 +70,4 @@ target/
 data/tiny-test/mixing_proportions
 data/tiny-test/source_loo
 data/tiny-test/example*
+.Rproj.user
