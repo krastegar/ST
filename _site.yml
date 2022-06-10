@@ -1,10 +1,10 @@
 name: "my-website"
 navbar:
-  title: "MultiVariate Statistics"
+  title: "HomePage"
   left:
-    - text: "Dimensional Reduction of Cancer Cohort"
+    - text: "Math 1"
       href: index.html
-    - text: "Logistic Regression with Binomial GLM"
+    - text: "Math 2"
       href: about.html
 output: 
   html_document:
