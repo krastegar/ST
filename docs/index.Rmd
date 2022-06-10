@@ -1,0 +1,38 @@
+---
+title: "HomePage"
+---
+
+# Welcome: 
+
+Hi I am creating this rmd markdown to simulate making a homepage. You can do whatever you want and be as creative as possible. Let me Simulate data and make a pretty plot
+
+### Simulate Data
+```{r, echo=FALSE}
+library(plotly)
+# simulate joint probability distribution (normal)
+num.rows <- 60
+num.cols <- 60
+simulate <- function(n.row, n.col) {
+  # initiate the matrix
+  prob.n <- matrix(0, nrow=num.rows, ncol=num.cols)
+  
+  x.seq <- seq(1, n.row)
+  y.seq <- seq(1, n.col)
+  
+  xx <- dnorm(x.seq, mean=n.row/2, sd=12)
+  
+  for (i in 1:n.row) {
+    
+    y <- dnorm(i, mean=n.row/2, sd=12)
+    prob.n[i,] <- y * xx
+  }
+  prob.n;
+}
+res <- simulate(num.rows, num.cols)
+fig.n <- plot_ly(z = ~res)
+fig.n <- fig.n %>% add_surface()
+fig.n
+```
+
+Now you understand that I can do some maths. 
+

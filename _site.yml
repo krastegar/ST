@@ -1,0 +1,13 @@
+name: "my-website"
+navbar:
+  title: "MultiVariate Statistics"
+  left:
+    - text: "Dimensional Reduction of Cancer Cohort"
+      href: index.html
+    - text: "Logistic Regression with Binomial GLM"
+      href: about.html
+output: 
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_float: yes
