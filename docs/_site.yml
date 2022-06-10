@@ -1,0 +1,13 @@
+name: "my-website"
+navbar:
+  title: "HomePage"
+  left:
+    - text: "Math 1"
+      href: index.html
+    - text: "Math 2"
+      href: about.html
+output: 
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_float: yes
