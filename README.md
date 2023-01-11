@@ -6,7 +6,7 @@ https://github.com/biota/sourcetracker2
 
 # Installation
 ```
-conda create -n st2 -c biocore python=3.5 numpy scipy scikit-bio biom-format h5py hdf5 seaborn parso=0.1.1
+conda create -n st2 -c biocore python=3.9 numpy scipy scikit-bio biom-format h5py hdf5 seaborn
 conda activate st2
 pip install --upgrade pip
 pip install git+https://github.com/residentjordan/SourceTracker2-diagnostics.git@Update
